@@ -7,6 +7,7 @@ module.exports = function(config) {
   if (!process.TRAVIS) {
     browsers.push('Chrome');
   }
+  var browsers = ['PhantomJS'];
 
   config.set({
 
